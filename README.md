@@ -1,6 +1,8 @@
 # Snake-game
 
-## Manual
+Program snake-game using C++
+
+## 1. Manual
 
 1. zip파일을 Download 받는다.
 
@@ -16,7 +18,7 @@
 
 
 
-## Run Screen
+## 2. Run Screen
 
 <img width="365" alt="주석 2020-06-26 164713" src="https://user-images.githubusercontent.com/28584213/85833738-30047a80-b7cd-11ea-8b76-34ffaab23e32.png" style="zoom: 400%;" >
 
@@ -30,28 +32,28 @@
 
 
 
-## Implementation
+## 3. Implementation
 
 #### 1단계
 
-- Ncurses Library 함수들을 사용하여 2차원 배열로 된 Snake Map을 Game 화면으로 출력한다.
+- [X] Ncurses Library 함수들을 사용하여 2차원 배열로 된 Snake Map을 Game 화면으로 출력한다.
 
 #### 2단계
 
-- 맵 위에 Snake를 표시하고, 방향키를 입력받아 Snake가 움직이도록 프로그램을 구현한다.
+- [X] 맵 위에 Snake를 표시하고, 방향키를 입력받아 Snake가 움직이도록 프로그램을 구현한다.
 
 #### 3단계
 
-- Map 위에 Growth Item와 Poison Item을 출현하도록 구현한다.
-- 화면상에 출력 시 색이나 기호를 달리하여 구분할 수 있도록 한다.
+- [X] Map 위에 Growth Item와 Poison Item을 출현하도록 구현한다.
+- [X] 화면상에 출력 시 색이나 기호를 달리하여 구분할 수 있도록 한다.
 
 #### 4단계
 
-- 벽 내부에 임의의 위치에 한 쌍의 Gate가 출현할 수 있도록 구현하고 Gate에 Snake가 통과할 수 있도록 한다.
+- [X] 벽 내부에 임의의 위치에 한 쌍의 Gate가 출현할 수 있도록 구현하고 Gate에 Snake가 통과할 수 있도록 한다.
 
 #### 5단계
 
-- 우측에 게임 점수를 표시하는 화면을 출력한다.
-- Mission을 달성하면 다음 Map으로 진행하도록 프로그램을 완성한다. 
-(Stage는 최소 4개로 구성하고, 각 Stage의 Map은 서로 달라야한다.)
+- [X] 우측에 게임 점수를 표시하는 화면을 출력한다.
+- [X] Mission을 완료하면 다음 Map으로 넘어가도록 구현한다. 
+- [X] Stage는 최소 4개로 구성하고 각 Stage의 Map을 다르게 구현한다.
 
